@@ -28,6 +28,25 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
     color: #0D1321;
 
 }
+.title{
+    text-align: center;
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.section_para{
+    width: 852px;
+    margin: 0 auto 24px;
+    color: #0D1321;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+}
+section{
+    padding: 70px 0;
+}
 /* common css end */
 
 #nav_part{
@@ -83,3 +102,51 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
     color: white
 }
 /* hero banner part css end */
+
+.why_web_inner{
+   background: #FBFBFC;
+    padding: 80px;
+    border-radius: 16PX;
+}
+.developer_card_container{
+    margin-top: 48px;
+}
+
+.developer_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 32px;
+}
+.developer_card:nth-child(2){
+    justify-content:space-evenly;
+    column-gap: 20px;
+}
+
+.developer_content h3{
+    width: 370px;
+    color: #0D1321;
+    opacity: 70%;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.developer_card:nth-child(2) .developer_content h3{
+    width: 500px;
+}
+
+.developer_content p{
+    width: 450px;
+    margin: 12px 0 24px;
+    opacity: 70%;
+    color: #0D1321;
+    font-size: 16px;
+    line-height: 26px;
+}
+.developer_content a{
+    border-radius: 0;
+    opacity: 0.7;
+}
+
