@@ -179,7 +179,7 @@ section{
     background: rgba(255, 223, 0, 0.05);
 
 }
-.target h3{
+.target_title{
     color: #0D1321;
     font-weight: 800;
     font-size: 24px;
@@ -187,16 +187,26 @@ section{
     margin: 10px 0 8px;
 }
 
-.target p{
+.target_para{
     margin: 0 auto 24px;
     color: #0D1321;
     font-size: 16px;
     line-height: 26px;
 }
-.target a{
+.target_link{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     color: #0D1321;
 }
 /* my currrent target part css end */
+
+.next_target{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 24px;
+}
 
