@@ -209,6 +209,12 @@ section{
     border-radius: 16px;
     margin-top: 24px;
 }
+#my_next_target .next_target img{
+    width: 133px;
+    height: auto;
+
+}
+
 /* my next target css end */
 
 .support_content{
@@ -297,10 +303,12 @@ footer{
 .footer_social i{
     font-size: 28px;
 }
-.footer_social i:first-child{
+.footer_social a:nth-child(1) i{
     color: #00B2FF;
 }
-.footer_social i:last-child{
-    color: #0575B3;
+.footer_social a:nth-child(2) i{
+    color: black;
+}
+.footer_social a:last-child i{   color: #0575B3;
 }
 /* footer part css end */
