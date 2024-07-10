@@ -271,3 +271,35 @@ section{
     border-radius: 8px;
 }
 /* support part css end */
+
+footer{
+    background: rgba(13, 19, 33, 0.04);
+    padding: 32px 0;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_content h2{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0D1321;
+
+}
+.footer_social{
+    display: flex;
+    column-gap: 24px;
+
+}
+.footer_social i{
+    font-size: 28px;
+}
+.footer_social i:first-child{
+    color: #00B2FF;
+}
+.footer_social i:last-child{
+    color: #0575B3;
+}
