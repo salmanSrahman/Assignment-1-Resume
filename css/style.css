@@ -1,3 +1,85 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn_primary{
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0D1321;
+
+}
+/* common css end */
+
+#nav_part{
+    padding: 36px 0;
+}
+
+.nav_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_inner h2{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 28px;
+    
+}
+/* nav part css end */
+
+#hero_banner_part{
+    padding: 30px 0;
+    background: url("../images/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_banner_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hero_banner_inner h1{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+    margin: 24px 0;
+}
+
+.hero_banner_inner p{
+    width: 852px;
+    margin: 0 auto 24px;
+    color: #0D1321;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.hero_banner_inner a{
+    background: #0D1321;
+    color: white
+}
+/* hero banner part css end */
