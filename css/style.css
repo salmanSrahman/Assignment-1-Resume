@@ -161,3 +161,42 @@ section{
 }
 /* my inspiration part css end */
 
+.target_container{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 48px;
+}
+.target{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target:nth-child(2){
+    background: rgba(0, 76, 232,0.05);
+    
+}
+.target:last-child{
+    background: rgba(255, 223, 0, 0.05);
+
+}
+.target h3{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 68px;
+    margin: 10px 0 8px;
+}
+
+.target p{
+    margin: 0 auto 24px;
+    color: #0D1321;
+    font-size: 16px;
+    line-height: 26px;
+}
+.target a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+}
+/* my currrent target part css end */
+
