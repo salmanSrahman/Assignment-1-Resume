@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
 
 }
 section{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 /* common css end */
 
@@ -149,4 +149,15 @@ section{
     border-radius: 0;
     opacity: 0.7;
 }
+/* why developer part css end */
+.video_container{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video_container iframe{
+    border-radius: 16px;
+}
+/* my inspiration part css end */
 
